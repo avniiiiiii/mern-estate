@@ -11,10 +11,7 @@ import ListCreate from "./pages/ListCreate.jsx";
 import Listing from "./pages/Listing.jsx";
 import Search from "./pages/Search.jsx";
 
-import usePageTracking from "./hooks/usePageTracking";
-
 const App = () => {
-  usePageTracking();
   return (
     <BrowserRouter>
       <Header></Header>
